@@ -12,14 +12,15 @@ class App extends Component {
           <h1 className="App-title">1000 shitty things</h1>
         </header>
         <p className="App-intro">
-	These are the shitty things Noah Kittleson and Ryan Streur are foolishly exposing to the world.
+          These are the shitty things Noah Kittleson and Ryan Streur are foolishly exposing to the world.
         </p>
-	<ol>
-		<li>The site itself</li>
-		<li>The favicon</li>
-		<li>The animation for the favicon</li>
-		<li>This list</li>
-	</ol>
+        <ol>
+          <li>The site itself - both</li>
+          <li>The favicon - Noah</li>
+          <li>The animation for the favicon - Ryan</li>
+          <li>This list - Ryan</li>
+          <li><audio controls src="welcome.wav"></audio> - Ryan</li>
+        </ol>
       </div>
     );
   }
