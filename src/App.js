@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ProgressChart from './ProgressChart/ProgressChart.js';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <li>The animation for the favicon - Ryan</li>
           <li>This list - Ryan</li>
           <li><audio controls src="welcome.wav"></audio> - Ryan</li>
+          <li><ProgressChart></ProgressChart></li>
         </ol>
       </div>
     );
