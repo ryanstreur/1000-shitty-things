@@ -22,16 +22,13 @@
   font-size: large;
 }
 
-a.strikethroughlink:link{
+a.strikethroughlink{
   text-decoration: none;
-  color: black;
+  color: rgba(100,100,250,1);
 }
 
 a.strikethroughlink:visited {
-  text-decoration: line-through;
   color: rgba(200,0,0,1);
-  font-size: 100px;
-  /* background: rgba(255, 189, 182, 0.3); */
 }
 
 a.strikethroughlink:hover {

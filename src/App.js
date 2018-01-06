@@ -19,7 +19,7 @@ class App extends Component {
 		<li>The favicon</li>
 		<li>The animation for the favicon</li>
 		<li>This list</li>
-    <li><a href="/broken" className="strikethroughlink">This link text styling I like (on hover)</a> and <a href="/" className="strikethroughlink">Unvisited</a></li>
+    <li><a href="/broke" className="strikethroughlink">This hyperlink text styling I like (on hover)</a></li>
     <li><span className="REDACTED">A link to government secrets</span></li>
 	</ol>
       </div>
