@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "name": "The site itself",
+    "author": "Both",
+    "medium": "text",
+    "date": "2018-01-04"
+  }, {
+    "id": 1,
+    "name": "The favicon",
+    "author": "Noah",
+    "medium": "text",
+    "date": "2018-01-04"
+  }, {
+    "id": 2,
+    "name": "The animation for the favicon",
+    "author": "Ryan",
+    "medium":"text",
+    "date": "2018-01-04"
+  }, {
+    "id": 3,
+    "name": "This List",
+    "author": "Ryan",
+    "medium":"text",
+    "date": "2018-01-04"
+  }, {
+    "id": 4,
+    "name": "Welcome message",
+    "author": "Ryan",
+    "medium":"audio",
+    "date": "2018-01-05"
+  }, {
+    "id": 5,
+    "name": "Garbage Chart",
+    "author": "Ryan",
+    "medium":"chart",
+    "date": "2018-01-05"
+  }, {
+    "id": 6,
+    "name": "This hyperlink text styling I like (on hover)",
+    "author": "Noah",
+    "medium":"style",
+    "date": "2018-01-05"
+  }, {
+    "id": 7,
+    "name": "A link to government secrets",
+    "author": "Noah",
+    "medium":"style",
+    "date": "2018-01-05"
+  } 
+]
