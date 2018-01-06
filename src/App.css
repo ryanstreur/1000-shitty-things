@@ -22,6 +22,58 @@
   font-size: large;
 }
 
+a.strikethroughlink:link{
+  text-decoration: none;
+  color: black;
+}
+
+a.strikethroughlink:visited {
+  text-decoration: line-through;
+  color: rgba(200,0,0,1);
+  font-size: 100px;
+  /* background: rgba(255, 189, 182, 0.3); */
+}
+
+a.strikethroughlink:hover {
+  text-decoration: line-through;
+  background: rgba(255, 189, 182, 0.3);
+  color: rgba(200,0,0,1);
+  transition: all 0.5s;
+}
+
+.REDACTED {
+	display: inline-block;
+	position: relative;
+}
+
+.REDACTED:after {
+	content: 'REDACTED';
+	position: absolute;
+  color: red;
+	display: none;
+	width: 100%;
+	height: 1em;
+	margin-top: -1em;
+	background: black;
+}
+
+.REDACTED:hover:after {
+	transform: scaleX(0);
+	transform-origin: center left;
+  display: block;
+  animation: REDACT 1s 0s cubic-bezier(.55, 0, .1, 1) 1;
+  animation-fill-mode: forwards
+}
+
+@keyframes REDACT {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
