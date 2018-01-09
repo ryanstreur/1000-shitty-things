@@ -1,32 +1,43 @@
-import React, { Component } from 'react';
-import Chart from 'chart.js';
-const Bar = require('react-chartjs-2').Bar;
+import React, { Component } from "react";
+import {getProgress} from './progress-data';
+const Line = require('react-chartjs-2').Line;
+
 class ProgressChart extends Component {
   constructor(props) {
-    super(props);
+    super();
+
     this.state = {
-      data: {
-          labels: ["January", "February", "March", "April", "May", "June", "July"],
-          datasets: [{
-              label: "garbage",
-              backgroundColor: 'brown',
-              borderColor: 'orange',
-              data: [0, 10, 5, 2, 20, 30, 45],
-          }],
-      options: {}
+      chartData: {
+        labels: ['time'],
+        datasets: [
+          {
+            data: getProgress()
+          }
+        ]
+      },
+      chartOptions: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }],
+            xAxes: [{
+              time: {
+                unit: 'day'
+              }
+            }]
+        }
       }
     }
   }
 
   render() {
-    return (<Bar
-      data={this.state.data}
-      width={100}
-      height={100}
-      options={{
-        maintainAspectRatio: false
-      }}
-    />);
+    return (
+      <Line ref='chart'
+            data={this.state.chartData}
+            options={this.state.chartOptions}></Line>
+    )
   }
 }
 

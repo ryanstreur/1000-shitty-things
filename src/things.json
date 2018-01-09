@@ -47,5 +47,11 @@
     "author": "Noah",
     "medium":"style",
     "date": "2018-01-05"
-  } 
+  }, {
+    "id": 8,
+    "name": "garbage progress chart",
+    "author": "Ryan",
+    "medium":"chart",
+    "date": "2018-01-08"
+  }
 ]
