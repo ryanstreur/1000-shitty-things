@@ -4,6 +4,7 @@ import './App.css';
 import GarbageChart from './ProgressChart/GarbageChart.js';
 import ProgressChart from './ProgressChart/ProgressChart';
 import Donk from './ProgressDonkey.gif';
+import LegoGreedo from './Mecha-Greedo.png';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
           <li><span className="REDACTED">A link to government secrets</span> - Noah</li>
           <li><ProgressChart></ProgressChart> - Ryan</li>
           <li>A Donkey destined for greater things - Noah <p><img src={Donk}/></p></li>
+          <li>My attempts at playing around with LEGO software.  I have reconstructed Greedo to be able to shoot first - AND LAST - Noah <p><img src={LegoGreedo}/></p></li>
         </ol>
       </div>
     );
