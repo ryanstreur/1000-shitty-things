@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import GarbageChart from './ProgressChart/GarbageChart.js';
 import ProgressChart from './ProgressChart/ProgressChart';
-
+import Donk from './ProgressDonkey.gif';
 
 class App extends Component {
   render() {
@@ -27,7 +27,7 @@ class App extends Component {
           <li><a href="/broke" className="strikethroughlink">This hyperlink text styling I like (on hover)</a> - Noah</li>
           <li><span className="REDACTED">A link to government secrets</span> - Noah</li>
           <li><ProgressChart></ProgressChart> - Ryan</li>
-          <li>A Donkey destined for greater things - Noah</li>
+          <li>A Donkey destined for greater things - Noah <p><img src={Donk}/></p></li>
         </ol>
       </div>
     );
