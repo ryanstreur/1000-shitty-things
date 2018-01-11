@@ -27,7 +27,7 @@ class App extends Component {
           <li><a href="/broke" className="strikethroughlink">This hyperlink text styling I like (on hover)</a> - Noah</li>
           <li><span className="REDACTED">A link to government secrets</span> - Noah</li>
           <li><ProgressChart></ProgressChart> - Ryan</li>
-          <li>A Donkey destined for greater things - Noah <p><img src={Donk}/></p></li>
+          <li>A Donkey destined for greater things - Noah <p><img src={Donk} alt="donkeydonkey"/></p></li>
         </ol>
       </div>
     );
