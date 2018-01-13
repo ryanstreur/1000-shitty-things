@@ -62,6 +62,11 @@ a.strikethroughlink:hover {
   animation-fill-mode: forwards
 }
 
+.photo {
+  height: 50%;
+  width: 50%;
+}
+
 @keyframes REDACT {
 	from {
 		transform: scaleX(0);
