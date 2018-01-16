@@ -30,23 +30,15 @@ class App extends Component {
           <li>My attempts at playing around with LEGO software.  I have reconstructed Greedo to be able to shoot first - AND LAST - Noah <p><img src='Mecha-Greedo.png' alt="Lego Mecha-Greedo"/></p></li>
           <li>Doodles - Noah <p><img src='drink&draw1.JPG' className="photo" alt="doodles"/></p></li>
           <li>New Ghostbusters? - Noah <p><img src='drink&draw2.JPG' className="photo" alt="doodles"/></p></li>
-          <li>Ghost-cop and Lamp-cop - Noah & guest contributor Frisbee <p><img src='drink&draw3.JPG' className="photo" alt="ghostbuster vikins"/></p></li>
+          <li>Ghost-cop and Lamp-cop - Noah & guest contributor Frisbee <p><img src='drink&draw3.JPG' className="photo" alt="ghostbuster vikings"/></p></li>
           <li>Knight-cop and Fish-cop - Noah & guest contributor Katie <p><img src='drink&draw4.JPG' className="photo" alt="a knight and fish buddy cops"/></p></li>
           <li>-A Poem by Noah-
-          <p>1000 things made only to be made</p>
-          <p>1000 things that fail the passing grade</p>
-          <p>3 things a day: our debt we pay to you,</p>
-          <p>our humble viewer, yearning for the new.</p>
-          <p>For when quality is in decline,</p>
-          <p>quantity will do just fine.</p>
-          <p>But this is not the time to brag</p>
-          <p>we’ve not yet filled our shitty bag!</p>
-          <p>There’s room enough for many more,</p>
-          <p>At least 984.</p>
-          <p>So back we go, to toil away</p>
-          <p>and make some shit for another day.</p></li>
+          <p><embed src="PoemForItem16.txt" className="poem"></embed></p></li>
           <li>Toilet Man and a Tall Drink of Water on a date - Noah & guest contributor Amy <p><img src='drink&draw5.JPG' className="photo" alt="A dapper toilet and a tall glass of water on a date"/></p></li>
           <li>Rose & Squid on date - Noah & guest contributor Helene<p><img src='drink&draw6.JPG' className="photo" alt="this will not end well"/></p></li>
+          <li>I wrote a weird story - Noah
+          <p><embed src="YouNeverKnowWhoYouCanTrust.txt" className="story"></embed></p></li>
+          <li>This might be the first shitty thing that&#39;s actually the result of a mistake. - Noah <p><img src='TugOutline.gif' alt="Bad Animation"/></p></li>
         </ol>
       </div>
     );

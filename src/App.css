@@ -67,6 +67,16 @@ a.strikethroughlink:hover {
   width: 50%;
 }
 
+.poem {
+  height: 210px;
+  width: 30%;
+}
+
+.story {
+  height: 300px;
+  width: 50%;
+}
+
 @keyframes REDACT {
 	from {
 		transform: scaleX(0);
