@@ -3,10 +3,14 @@ import logo from './favicon1.ico';
 import './App.css';
 import GarbageChart from './ProgressChart/GarbageChart.js';
 import ProgressChart from './ProgressChart/ProgressChart';
-import Countdown from './countdown/Countdown'
+import Countdown from './countdown/Countdown';
+import ShittyThing from './ShittyThing';
+const things = require('./things.json');
+// import favoriteIcon from './favorite-icon';
 
 class App extends Component {
   render() {
+    const listItems = things.map((thing) => <ShittyThing thing={thing}></ShittyThing>);
     favoriteIcon();
     return (
       <div className="App">
@@ -17,6 +21,7 @@ class App extends Component {
         <p className="App-intro">
           These are the shitty things Noah Kittleson and Ryan Streur are foolishly exposing to the world.
         </p>
+        <ol>{listItems}</ol>
         <ol>
           <li>The site itself - both</li>
           <li>The favicon - Noah</li>

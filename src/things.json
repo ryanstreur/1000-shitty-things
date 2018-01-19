@@ -28,7 +28,8 @@
     "name": "Welcome message",
     "author": "Ryan",
     "medium":"audio",
-    "date": "2018-01-05"
+    "date": "2018-01-05",
+    "src": "welcome.wav"
   }, {
     "id": 5,
     "name": "Garbage Chart",
@@ -45,39 +46,46 @@
     "id": 7,
     "name": "A link to government secrets",
     "author": "Noah",
-    "medium":"style",
-    "date": "2018-01-05"
+    "medium":"component",
+    "date": "2018-01-05",
+    "componentName": "Redacted"
   }, {
     "id": 8,
     "name": "garbage progress chart",
     "author": "Ryan",
-    "medium":"chart",
-    "date": "2018-01-08"
+    "medium":"component",
+    "date": "2018-01-08",
+    "componentName": "ProgressChart"
   }, {
     "id": 9,
     "name": "A donkey destined for greater things",
     "author": "Noah",
-    "medium": "gif",
-    "date": "2018-01-09"
+    "medium": "img",
+    "tags": ["gif"],
+    "date": "2018-01-09",
+    "src": "/ProgressDonkey.gif"
   }, {
     "id": 10,
     "name": "Lego Greedo",
     "author": "Noah",
     "medium": "img",
     "description": "My attempts at playing around with LEGO software. I have reconstructed Greedo to be able to shoot first - AND LAST - Noah ",
-    "date": "2018-01-10"
+    "date": "2018-01-10",
+    "src": "/Mecha-Greedo.png"
   }, {
     "id": 11,
     "name": "Doodles",
     "author": "Noah",
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw1.JPG"
   }, {
     "id": 12,
     "name": "New Ghostbusters?",
     "author": "Noah",
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw2.JPG"
   }, {
     "id": 13,
     "name": "Ghost-cop and Lamp-cop",
@@ -85,7 +93,8 @@
       "Noah", "Frisbee"
     ],
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw3.JPG"
   }, {
     "id": 14,
     "name": "Knight-cop and Fish-cop",
@@ -93,15 +102,17 @@
       "Noah", "Katie"
     ],
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw4.JPG"
   }, {
     "id": 15,
     "name": "A Poem by Noah",
     "authors": [
       "Noah"
     ],
-    "medium": "text",
-    "date": "2018-01-11"
+    "medium": "embed",
+    "date": "2018-01-11",
+    "src": "PoemForItem16.txt"
   }, {
     "id": 16,
     "name": "Toilet Man and a Tall Drink of Water on a Date",
@@ -109,7 +120,8 @@
       "Noah", "Amy"
     ],
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw5.JPG"
   }, {
     "id": 17,
     "name": "Rose & Squid on a date",
@@ -117,15 +129,17 @@
       "Noah", "Helene"
     ],
     "medium": "img",
-    "date": "2018-01-11"
+    "date": "2018-01-11",
+    "src": "/drink&draw6.JPG"
   }, {
     "id": 18,
     "name": "I wrote a weird story",
     "authors": [
       "Noah"
     ],
-    "medium": "text",
-    "date": "2018-01-14"
+    "medium": "embed",
+    "date": "2018-01-14",
+    "src": "YouNeverKnowWhoYouCanTrust.txt"
   }, {
     "id": 19,
     "name": "This might be the first shitty thing that's actually the result of a mistake",
