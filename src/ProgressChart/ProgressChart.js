@@ -11,22 +11,32 @@ class ProgressChart extends Component {
         labels: ['time'],
         datasets: [
           {
+            fill: false,
+            xAxisID: "time-axis",
             data: getProgress()
           }
         ]
       },
       chartOptions: {
+        responsive: true,
+        fill: false,
         scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }],
-            xAxes: [{
-              time: {
-                unit: 'day'
-              }
-            }]
+          xAxes: [{
+            id: "time-axis",
+            type: "time",
+            bounds: "data",
+            time: {
+              min: new Date("2018-01-01"),
+              max: new Date("2019-01-04")
+            }
+          }],
+          yAxes: [{
+            id: "thing-axis",
+            ticks: {
+              min: 0,
+              max: 1000
+            }
+          }]
         }
       }
     }
@@ -35,6 +45,7 @@ class ProgressChart extends Component {
   render() {
     return (
       <Line ref='chart'
+            height={100}
             data={this.state.chartData}
             options={this.state.chartOptions}></Line>
     )

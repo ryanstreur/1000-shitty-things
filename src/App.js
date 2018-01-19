@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './favicon1.ico';
 import './App.css';
 import GarbageChart from './ProgressChart/GarbageChart.js';
 import ProgressChart from './ProgressChart/ProgressChart';
