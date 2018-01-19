@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const Redacted = (props) => {
   return <span className="REDACTED">A link to government secrets</span>
