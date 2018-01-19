@@ -59,5 +59,72 @@
     "author": "Noah",
     "medium": "gif",
     "date": "2018-01-09"
+  }, {
+    "id": 10,
+    "name": "Lego Greedo",
+    "author": "Noah",
+    "medium": "img",
+    "description": "My attempts at playing around with LEGO software. I have reconstructed Greedo to be able to shoot first - AND LAST - Noah ",
+    "date": "2018-01-10"
+  }, {
+    "id": 11,
+    "name": "Doodles",
+    "author": "Noah",
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 12,
+    "name": "New Ghostbusters?",
+    "author": "Noah",
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 13,
+    "name": "Ghost-cop and Lamp-cop",
+    "authors": [
+      "Noah", "Frisbee"
+    ],
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 14,
+    "name": "Knight-cop and Fish-cop",
+    "authors": [
+      "Noah", "Katie"
+    ],
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 15,
+    "name": "A Poem by Noah",
+    "authors": [
+      "Noah"
+    ],
+    "medium": "text",
+    "date": "2018-01-11"
+  }, {
+    "id": 16,
+    "name": "Toilet Man and a Tall Drink of Water on a Date",
+    "authors": [
+      "Noah", "Amy"
+    ],
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 17,
+    "name": "Rose & Squid on a date",
+    "authors": [
+      "Noah", "Helene"
+    ],
+    "medium": "img",
+    "date": "2018-01-11"
+  }, {
+    "id": 18,
+    "name": "I wrote a weird story",
+    "authors": [
+      "Noah"
+    ],
+    "medium": "text",
+    "date": "2018-01-14"
   }
 ]
