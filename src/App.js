@@ -3,6 +3,7 @@ import logo from './favicon1.ico';
 import './App.css';
 import GarbageChart from './ProgressChart/GarbageChart.js';
 import ProgressChart from './ProgressChart/ProgressChart';
+import Countdown from './countdown/Countdown'
 
 class App extends Component {
   render() {
@@ -39,6 +40,7 @@ class App extends Component {
           <li>I wrote a weird story - Noah
           <p><embed src="YouNeverKnowWhoYouCanTrust.txt" className="story"></embed></p></li>
           <li>This might be the first shitty thing that&#39;s actually the result of a mistake. - Noah <p><img src='TugOutline.gif' alt="Bad Animation"/></p></li>
+          <li><Countdown></Countdown></li>
         </ol>
       </div>
     );
