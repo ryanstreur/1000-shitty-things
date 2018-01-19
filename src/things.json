@@ -146,8 +146,9 @@
     "authors": [
       "Noah"
     ],
-    "medium": "gif",
-    "date": "2018-01-14"
+    "medium": "img",
+    "date": "2018-01-14",
+    "src": "TugOutline.gif"
   }, {
     "id": 20,
     "name": "hello-go",
