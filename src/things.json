@@ -10,7 +10,10 @@
     "name": "The favicon",
     "author": "Noah",
     "medium": "text",
-    "date": "2018-01-04"
+    "date": "2018-01-04",
+    "tags": [
+      "pixelart"
+    ]
   }, {
     "id": 2,
     "name": "The animation for the favicon",
@@ -63,7 +66,10 @@
     "medium": "img",
     "tags": ["gif"],
     "date": "2018-01-09",
-    "src": "/ProgressDonkey.gif"
+    "src": "/ProgressDonkey.gif",
+    "tags": [
+      "pixelart"
+    ]
   }, {
     "id": 10,
     "name": "Lego Greedo",
@@ -148,7 +154,10 @@
     ],
     "medium": "img",
     "date": "2018-01-14",
-    "src": "TugOutline.gif"
+    "src": "TugOutline.gif",
+    "tags": [
+      "pixelart"
+    ]
   }, {
     "id": 20,
     "name": "hello-go",
@@ -160,6 +169,18 @@
     "url": "https://github.com/ryanstreur/hello-go",
     "tags": [
       "repo", "golang"
+    ]
+  }, {
+    "id": 21,
+    "name": "Baby Cakes",
+    "authors": [
+        "Noah"
+      ],
+    "medium": "img",
+    "date": "2018-01-24",
+    "src": "BabyCakes.png",
+    "tags": [
+      "pixelart", "babycakes"
     ]
   }
 ]
