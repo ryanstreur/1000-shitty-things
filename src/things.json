@@ -38,7 +38,8 @@
     "name": "Garbage Chart",
     "author": "Ryan",
     "medium":"chart",
-    "date": "2018-01-05"
+    "date": "2018-01-05",
+    "componentName": "GarbageChart"
   }, {
     "id": 6,
     "name": "This hyperlink text styling I like (on hover)",
@@ -56,7 +57,7 @@
     "id": 8,
     "name": "garbage progress chart",
     "author": "Ryan",
-    "medium":"component",
+    "medium":"chart",
     "date": "2018-01-08",
     "componentName": "ProgressChart"
   }, {

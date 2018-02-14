@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ProgressChart from './ProgressChart/ProgressChart';
 import Redacted from './Redacted';
+import GarbageChart from './ProgressChart/GarbageChart'
 
 
 export default class ShittyThing extends Component {
@@ -60,7 +61,8 @@ function AudioComponent (props) {
 
 const components = {
   "ProgressChart": ProgressChart,
-  "Redacted": Redacted
+  "Redacted": Redacted,
+  "GarbageChart": GarbageChart
 }
 
 function DynamicComponent (props) {
