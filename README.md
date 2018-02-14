@@ -1,3 +1,7 @@
+# 1000 Shitty Things
+
+![build](https://travis-ci.org/ryanstreur/1000-shitty-things.svg?branch=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
