@@ -214,6 +214,13 @@
     ],
     "medium": "text",
     "name": "An ideal trend line for the progress chart"
+  }, {
+    "id": 25,
+    "date": "2018-02-13",
+    "authors": [
+      "Ryan"
+    ],
+    "medium": "text",
+    "name": "Add automatic testing to the repo"
   }
-
 ]
