@@ -2,7 +2,6 @@ const data = require('../things.json');
 const _ = require('lodash');
 
 export const getProgress = () => {
-  console.log(data);
   var out = _.countBy(data, 'date');
   let cumulative = 0;
   let arrayOut = [];
@@ -14,6 +13,5 @@ export const getProgress = () => {
       y: out[key]
     });
   }
-  console.log(arrayOut);
   return arrayOut;
 }
