@@ -14,6 +14,18 @@ class ProgressChart extends Component {
             fill: false,
             xAxisID: "time-axis",
             data: getProgress()
+          }, {
+            fill: false,
+            xAxisID: "time-axis",
+            data: [
+              {
+                t: new Date('2018-01-04'),
+                y: 0
+              }, {
+                t: new Date('2019-01-04'),
+                y: 1000
+              }
+            ]
           }
         ]
       },
