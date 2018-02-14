@@ -27,7 +27,7 @@ export default class Countdown extends Component {
 }
 
 function getDaysRemaining() {
-  const theBigDay = moment('20100104', 'YYYYMMDD');
+  const theBigDay = moment('20190104', 'YYYYMMDD');
   return theBigDay.diff(moment(), 'days');
 }
 

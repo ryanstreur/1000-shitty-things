@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ProgressChart from './ProgressChart/ProgressChart';
 import Redacted from './Redacted';
 import GarbageChart from './ProgressChart/GarbageChart'
+import Countdown from './countdown/Countdown'
 
 
 export default class ShittyThing extends Component {
@@ -62,7 +63,8 @@ function AudioComponent (props) {
 const components = {
   "ProgressChart": ProgressChart,
   "Redacted": Redacted,
-  "GarbageChart": GarbageChart
+  "GarbageChart": GarbageChart,
+  "Countdown": Countdown
 }
 
 function DynamicComponent (props) {
