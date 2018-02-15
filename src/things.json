@@ -261,5 +261,14 @@
     "tags": ["website work"],
     "medium": "link",
     "href": "https://github.com/ryanstreur/1000-shitty-things/commit/82a7ff783adaa9b0f748b811b4d88bcbc6f3e53e"
+  }, {
+    "id": 30,
+    "date": "2018-02-15",
+    "authors": [
+      "Ryan"
+    ],
+    "name": "Add an automatic build and deploy bash script that can be run in the remote server to deploy the app to production",
+    "medium": "link",
+    "href": "https://github.com/ryanstreur/1000-shitty-things/blob/master/deploy.sh"
   }
 ]
