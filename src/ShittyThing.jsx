@@ -23,6 +23,8 @@ export default class ShittyThing extends Component {
       return <AudioComponent thing={this.state.thing}></AudioComponent>
     if (this.state.thing.medium === 'component')
       return <DynamicComponent thing={this.state.thing}></DynamicComponent>
+    if (this.state.thing.medium === 'link')
+      return <LinkComponent thing={this.state.thing}></LinkComponent>
     return <li>{this.state.thing.name}</li>
   }
 }
@@ -56,6 +58,14 @@ function AudioComponent (props) {
       <h1>{props.thing.name}</h1>
       <p>{props.thing.description}</p>
       <audio controls src={props.thing.src}></audio>
+    </li>
+  )
+}
+
+function LinkComponent (props) {
+  return (
+    <li>
+      <a href={props.thing.href}>{props.thing.name}</a>
     </li>
   )
 }

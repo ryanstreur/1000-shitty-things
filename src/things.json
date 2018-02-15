@@ -167,7 +167,7 @@
     ],
     "medium": "link",
     "date": "2018-01-11",
-    "url": "https://github.com/ryanstreur/hello-go",
+    "href": "https://github.com/ryanstreur/hello-go",
     "tags": [
       "repo", "golang"
     ]
@@ -239,8 +239,9 @@
     "authors": [
       "Ryan"
     ],
-    "medium": "text",
-    "name": "A blog post"
+    "medium": "link",
+    "name": "A blog post",
+    "href": "http://ryanstreur.com/post/2018-02-01-life-at-the-top-of-the-roller-coaster/"
   }, {
     "id": 28,
     "date": "2018-02-13",
@@ -250,5 +251,15 @@
     "name": "Countdown",
     "medium": "component",
     "componentName": "Countdown"
+  }, {
+    "id": 29,
+    "date": "2018-02-13",
+    "authors": [
+      "Ryan"
+    ],
+    "name": "Enable links in the shitty things",
+    "tags": ["website work"],
+    "medium": "link",
+    "href": ""
   }
 ]
